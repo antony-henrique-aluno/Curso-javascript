@@ -2,3 +2,9 @@
 
 //Uma variavel é um espaço na memoria na sua maquina que guarda o conteudo dentro dela.
 //E essa variavel eu posso reutilizar e mudar o conteudo guardado dentro dela.
+
+if (true) {
+    var nome = "escopo de variaveis";
+}
+
+console.log("nome");

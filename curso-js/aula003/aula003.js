@@ -19,4 +19,4 @@ function escopo(){
     console.log("Dentro do escopo " + nome); //E desse tambem, pq ela está dentro do msm escopo
 }
 escopo()
-console.log("Fora do escopo " + nome); //E aqui a variavel let não pode existir
+console.log("Fora do escopo " + nome); //E aqui a variavel let não pode existir, pós está em um escopo anterior

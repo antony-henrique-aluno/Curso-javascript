@@ -7,4 +7,4 @@ if (true) {
     var nome = "escopo de variaveis";
 }
 
-console.log("nome");
+console.log(nome);

@@ -25,4 +25,5 @@ console.log(num3); */
 
 
 //==================
-//Foco da aula operadores matematico
+//Foco da aula operadores matematicos
+

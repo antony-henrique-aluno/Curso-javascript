@@ -26,7 +26,12 @@ console.log("Fora do escopo " + nome); //E aqui a variavel let não pode existir
 //======================
 
 //Mudando conteudo de dentro de uma variavel com let declarado
-let nome = "Priscila";
+/* let nome = "Priscila";
 
 nome = "Hestia";
-console.log(nome);
+nome = 10;
+console.log(nome); */
+
+
+//======================
+

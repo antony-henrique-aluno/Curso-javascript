@@ -34,5 +34,5 @@ num2 = 12;
 
 res = num1 + num2;
 
-console.log(res);//Soma usando a variavel res dentro do console log
-console.log(num1 - num2);
+console.log(res);//Soma usando a variavel res dentro do console.log()
+console.log(num1 - num2);//Forma de somar, subtrair e etc usando as variaveis que receberam o seu valor diretamente dentro do console.log()

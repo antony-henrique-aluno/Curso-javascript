@@ -35,4 +35,6 @@ console.log(nome); */
 
 //======================
 
-const curso = "JavaScript";
+const curso = "JavaScript"; //A variavel const é uma variavel na qual não pode ter seu valor alterado;
+
+curso = "javeiro";

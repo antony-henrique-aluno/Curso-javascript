@@ -34,3 +34,4 @@ num2 = 12;
 
 res = num1 + num2;
 console.log(res);
+console.log(num1 - num2);

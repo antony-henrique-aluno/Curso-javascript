@@ -16,7 +16,7 @@ function escopo(){
         //Está dentro deste aqui
         console.log("Dentro do escopo do if " + nome);
     }
-    console.log("Dentro do escopo " + nome); //E desse tambem
+    console.log("Dentro do escopo " + nome); //E desse tambem, pq ela está dentro do msm escopo
 }
 escopo()
-console.log("Fora do escopo " + nome);
+console.log("Fora do escopo " + nome); //E aqui a variavel let não pode existir

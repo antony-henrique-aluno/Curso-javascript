@@ -9,7 +9,7 @@
 
 console.log(nome); */
 
-function escopo(){
+/* function escopo(){
     //A variavel let sempre vai elevar de onde ela foi declarada para cima.
     let nome = "Hestia"; //Esse escopo aqui
     if (true) {
@@ -20,4 +20,13 @@ function escopo(){
 }
 escopo()
 console.log("Fora do escopo " + nome); //E aqui a variavel let não pode existir, pós está em um escopo anterior!
-//Lembrando que esse controle só é efeito com LET.
+//Lembrando que esse controle só é efeito com LET. */
+
+
+//======================
+
+//Mudando conteudo de dentro de uma variavel com let declarado
+let nome = "Priscila";
+
+nome = "Hestia";
+console.log(nome);

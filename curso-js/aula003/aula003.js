@@ -10,6 +10,7 @@
 console.log(nome); */
 
 function escopo(){
+    //A variavel let sempre vai elevar de onde ela foi declarada para cima.
     let nome = "Hestia";
     if (true) {
         console.log("Dentro do escopo do if " + nome);

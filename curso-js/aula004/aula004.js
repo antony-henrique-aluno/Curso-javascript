@@ -27,3 +27,9 @@ console.log(num3); */
 //==================
 //Foco da aula operadores matematicos
 
+let num1 = 0, num2 = 0, res = 0;
+
+num1 = 5;
+num2 = 12;
+
+res = num1 + num2;

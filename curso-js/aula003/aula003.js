@@ -14,7 +14,7 @@ function escopo(){
     if (true) {
         console.log("Dentro do escopo do if " + nome);
     }
-    console.log("Fora do escopo do if" + nome);
+    console.log("Dentro do escopo " + nome);
 }
-
+escopo()
 console.log("Fora do escopo " + nome);

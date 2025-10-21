@@ -17,8 +17,10 @@ console.log(num1, num2); */
 
 //Terceira forma de declarar variaveis
 
-let num1, num2, num3;
+/* let num1, num2, num3;
 num1 = num2 = num3 = 12;
 console.log(num1);
 console.log(num2);
-console.log(num3);
+console.log(num3); */
+
+

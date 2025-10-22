@@ -21,5 +21,11 @@ console.log(((n1 > n2) && (n1 > n3)));
 console.log(((n1 > n2) || (n1 > n3)));
 // O operador logico or / || sera true se ao menos um dos valores for verdadeiro
 
+
+if (n1 > n2 && n1 > 3) {
+    console.log("verdadeiro")
+}else{
+    console.log("falso");
+}
 // O operador logico not / ! é usado quando queremos inverter 
 // os valores seja de true para false ou de false para true

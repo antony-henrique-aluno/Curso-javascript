@@ -8,6 +8,7 @@ let num1 = 10;
 res = ((num1 % 2) ? "par" : "impar");
 console.log(res)
 
+//Teste logico do valor ternario ? se for true e : se for false
 // 0 = false 
 // 1 = true
 

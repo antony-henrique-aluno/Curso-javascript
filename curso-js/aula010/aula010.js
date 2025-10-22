@@ -30,4 +30,6 @@ console.log(res3)
 
 let stts = "a".toLocaleLowerCase();
 
-res = (stts === "a" ? "Ativo" : "Inanito");
+res4 = (stts === "A" ? "Ativo" : "Inativo");
+
+console.log(res4)

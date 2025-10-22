@@ -1,5 +1,5 @@
 // aula de pré e pós incremento
-let n = 10;
+// let n = 10;
 
 // n++;
 // console.log(n);
@@ -29,3 +29,7 @@ primeiro console.log() */
 //====================//
 
 // Operadores de atribuição
+let n = 10
+
+n+=10
+console.log(n)

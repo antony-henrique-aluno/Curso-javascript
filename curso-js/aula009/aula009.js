@@ -27,3 +27,5 @@ console.log(n); o valor já tera o incremento de +1 por conta do
 primeiro console.log() */
 
 //====================//
+
+// Operadores de atribuição

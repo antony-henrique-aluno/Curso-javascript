@@ -21,5 +21,7 @@ console.log(n)
 console.log(n)
 console.log(n) */
 
-console.log(n++)
-console.log(n)
+/* console.log(n++); nessa situação aqui, de pos incremento
+o valor da variavel n só sera alterada no segundo console.log()
+console.log(n); o valor já tera o incremento de +1 por conta do 
+primeiro console.log() */

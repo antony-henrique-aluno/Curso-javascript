@@ -10,4 +10,6 @@ let n = 10;
 // console.log(n++);
 //Dessa forma o pos e o pre incremento, está errado
 
-console.log(++n);
+console.log(++n); 
+//O pré incremento é quando usamos o operador ++ antes
+//da variavel que recebeu o seu valor. Nesse caso, ++n

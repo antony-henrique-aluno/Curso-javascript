@@ -13,6 +13,7 @@ console.log(res)
 
 
 let n1 = 10
-let n2 = 2 
+let n2 = 20 
 
-res = (n1 > n2 ? "sim, n1 é maior que n2" : "não, n1 não é maior que n2");
+res2 = (n1 > n2 ? "sim, n1 é maior que n2" : "não, n1 não é maior que n2");
+console.log(res2)

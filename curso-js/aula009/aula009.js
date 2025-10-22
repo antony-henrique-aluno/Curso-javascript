@@ -16,6 +16,7 @@ console.log(++n);
 //O pré incremento pode ser usado fora do console.log()
 //O incremento não so muda o valor da primeira operação
 console.log(n); //Mas tbm dessa aqui. Ou seja, ele incrementou +1
+//no valor da variavel
 console.log(n)
 console.log(n)
 console.log(n)

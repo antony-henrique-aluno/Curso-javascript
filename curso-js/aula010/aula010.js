@@ -27,3 +27,7 @@ let n2 = 20
 
 res3 = (n1 > n2 ? "sim, n1 é maior que n2" : "não, n1 não é maior que n2");
 console.log(res3)
+
+let stts = "a".toLocaleLowerCase();
+
+res = (stts === "a" ? "Ativo" : "Inanito");

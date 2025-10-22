@@ -28,8 +28,19 @@ primeiro console.log() */
 
 //====================//
 
-// Operadores de atribuição
+// O menos sera o operador de atribuição que vai inverter o valor 
+// Exemplo:
 let n = 10
+let x =- n 
 
-n+=10
-console.log(n)
+
+console.log(x)
+
+/*Ja o operador + pode ser usado pra somar, que é o obvio, 
+mas tbm pode ser usado para concatenar*/
+
+// Exemplo
+let a = 10
+let b = 12
+
+console.log(a + "" + b + " entendeu?")

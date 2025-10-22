@@ -27,15 +27,21 @@ console.log(num3); */
 //==================
 //Foco da aula operadores matematicos
 
-let num1 = 0, num2 = 0, res = 0;
+/* let num1 = 0, num2 = 0, res = 0;
 
 num1 = 5;
 num2 = 12;
 
-res = num1 + num2;
+res = num1 + num2; */
 
-console.log(res);//Soma usando a variavel res dentro do console.log()
-console.log(num1 - num2);//Forma de somar, subtrair e etc usando as variaveis que receberam o seu valor diretamente dentro do console.log()
+/*console.log(res);//Soma usando a variavel res dentro do console.log()
+console.log(num1 - num2);*/ //Forma de somar, subtrair e etc usando as variaveis que receberam o seu valor diretamente dentro do console.log()
 
 //==================
 //Precedencia dos operadores
+let num1 = 10
+let num2 = 10
+let res = "";
+
+res = (num1 + num2) * 2;
+console.log(res);

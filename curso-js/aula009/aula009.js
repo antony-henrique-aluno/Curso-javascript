@@ -13,3 +13,4 @@ let n = 10;
 console.log(++n); 
 //O pré incremento é quando usamos o operador ++ antes
 //da variavel que recebeu o seu valor. Nesse caso, ++n
+//O pré incremento pode ser usado fora do console.log()

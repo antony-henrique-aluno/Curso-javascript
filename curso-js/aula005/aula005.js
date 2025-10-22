@@ -16,6 +16,6 @@ let num3 = 10
 console.log(num1 < num2) //false
 console.log(num2 > num1) //false
 
-console.log(!(num1 > num2)); //false
+console.log(!(num1 > num2)); //false lendo em portugol fica algo como: num1 não é maior que num2
 
 console.log(!(num1 != num2));

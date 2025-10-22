@@ -5,9 +5,11 @@
 // console.log(res)
 
 let num1 = 10;
-res = ((num1 % 2) ? "impa" : "par");
+res = ((num1 % 2) ? "par" : "impar");
 console.log(res)
 
+// 0 = false 
+// 1 = true
 
 /* if (!(num1 === 0)) {
     console.log("par");

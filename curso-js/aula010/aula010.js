@@ -1,7 +1,11 @@
 //Aula sobre operadores ternario
 
+// let num1 = 10;
+// res = ((num1 % 2) ? "impa" : "par");
+// console.log(res)
+
 let num1 = 10;
-res = (!(num1 % 2) ? "par" : "impa");
+res = ((num1 % 2) ? "impa" : "par");
 console.log(res)
 
 

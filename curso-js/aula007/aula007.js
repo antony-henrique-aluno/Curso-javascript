@@ -16,3 +16,7 @@ n3 = 15;
 n4 = 2;
 
 console.log((n1 > n2) && (n1 > n3))
+// O operador logicos and / && só sera true se ambos os valores for verdadeiro
+
+console.log((n1 > n2) || (n1 > n3))
+// O operador logico or / || sera true se ao menos um dos valores for verdadeiro

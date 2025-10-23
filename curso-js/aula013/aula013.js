@@ -26,3 +26,6 @@ let idade = 18;
 let temTrabalho = "sim";
 let temCertificado = "sim";
 
+if (idade >= 18 && temTrabalho === "sim" && temCertificado === "sim") {
+    console.log("Que incrivel, Você tem grande chances de ser contratado")
+}

@@ -35,8 +35,8 @@ console.log("--- " + valorEntrada + "R$" + " ---");
 console.log("--- " + valorTotal + "R$" + " ---");
 console.log("--- " + anosPagar + "anos" + " ---");
 console.log("--- " + mesesPagar + "meses" + " ---");
-console.log("--- " + valorParcela + "R$" + " ---");
-console.log("--- " + limiteParcela + "%" + " ---");
+console.log("--- " + valorParcela.toFixed(2) + "R$" + " ---");
+console.log("--- " + limiteParcela.toFixed(2) + "%" + " ---");
 
 
 if (salario < valorParcela) {

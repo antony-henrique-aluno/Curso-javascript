@@ -57,7 +57,7 @@ if (salario < valorParcela) {
 
 //Outra logica qualquer
 
-let idade = 18;
+let idade = 17;
 let temCarteira = "não";
 let estaBebado = "sim";
 
@@ -67,6 +67,6 @@ if (idade < 18) {
     console.log("pode dirigir")
 }else if (idade >= 18 && temCarteira === "não") {
     console.log("É maior de idade, mas não tem carteira, pode acabar sendo multado")
-}else if (condition) {
-    
+}else if (idade < 18 && temCarteira === "não" && estaBebado === "sim") {
+    console.log("Você sera preso e multado, por está infrigindo as leis de transito");
 }

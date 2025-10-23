@@ -52,3 +52,4 @@ if (salario < valorParcela) {
 }else{
     console.log("parabens pela compra da casa");
 }
+

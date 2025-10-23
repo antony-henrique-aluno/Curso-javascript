@@ -29,5 +29,7 @@ let mesesPagar = anosPagar * 12;
 let valorParcela = valorTotal / mesesPagar;
 
 if (salario < valorParcela) {
-    
+    console.log("Seu salario não permite comprar uma casa dessa magnetude");
+}else{
+    console.log("Parabéns, você parcelou um bela casa");
 }

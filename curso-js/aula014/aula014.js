@@ -14,4 +14,5 @@ switch (colocacao) {
        break;
     default:
         console.log("Tu não está no top 3 cara, supera!!");
+        break;
 }

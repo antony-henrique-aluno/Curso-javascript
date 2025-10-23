@@ -1,3 +1,5 @@
-const objs = document.getElementsByTagName("div");
+const objs1 = document.getElementsByTagName("div");
+const objs2 = [...document.getElementsByTagName("div")];
 
-console.log(objs)
+console.log(objs1);
+console.log(objs2);

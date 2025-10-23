@@ -11,10 +11,12 @@ if (num1 > 10) {
 
 //Usando logica
 
-let idade = 18
+let idade = 23
 
 if (idade < 18) {
     console.log("É menor de idade")
 }else if (idade < 24) {
     console.log("É maior de idade")
+}else{
+    console.log("Milf das boas")
 }

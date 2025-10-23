@@ -36,7 +36,7 @@ console.log("--- " + valorTotal + " R$" + " ---");
 console.log("--- " + anosPagar + " anos" + " ---");
 console.log("--- " + mesesPagar + " meses" + " ---");
 console.log("--- " + valorParcela.toFixed(2) + " R$" + " ---");
-console.log("--- " + limiteParcela.toFixed(2) + " %" + " ---");
+console.log("--- " + limiteParcela.toFixed(2) + " R$" + " ---");
 
 
 if (salario < valorParcela) {
@@ -45,7 +45,7 @@ if (salario < valorParcela) {
     console.log("Cuidado, o valor da parcela é maior que 30% do seu salario");
     let escolha = Number(prompt("Escolha entre 0 ou 1 para continuar"));
     if (escolha != 1) {
-        return console.log("Sabia escolha, em não estourar seu saldo! volte sempre");
+        console.log("Sabia escolha, em não estourar seu saldo! volte sempre");
     }else{
         console.log("Bom, você quem faz suas escolhas, ira parcelar mesmo passando dos seus limites.");
     }

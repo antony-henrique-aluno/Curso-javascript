@@ -3,7 +3,7 @@ const objs2 = [...document.getElementsByTagName("div")];
 
 
 objs2.forEach(elemnts => {
-    elemnts.innerHTML = "oi"
+    elemnts[0].innerHTML = "oi"
 });
 console.log(objs1);
 console.log(objs2);

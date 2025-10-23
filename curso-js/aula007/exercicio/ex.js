@@ -32,6 +32,12 @@ let limiteParcela = salario * 0.3;
 console.log("---financiamento da casa---");
 console.log("--- " + salario + " ---");
 console.log("--- " + valorEntrada + " ---");
+console.log("--- " + valorTotal + " ---");
+console.log("--- " + anosPagar + " ---");
+console.log("--- " + mesesPagar + " ---");
+console.log("--- " + valorParcela + " ---");
+console.log("--- " + limiteParcela + " ---");
+
 
 if (salario < valorParcela) {
     console.log("Seu salario não permite comprar uma casa dessa magnetude");

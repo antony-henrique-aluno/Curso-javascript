@@ -1,0 +1,1 @@
+const obj = document.getElementsByTagName("div");

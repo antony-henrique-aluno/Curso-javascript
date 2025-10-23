@@ -9,3 +9,4 @@
 //console.log("n3: " + n3)
 //console.log("Tipo: " + typeof(n3))
 
+const jogador = {nome: "Ghislane", energia: 100, vidas: 3}

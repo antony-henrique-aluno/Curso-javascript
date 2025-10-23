@@ -12,7 +12,10 @@ switch (colocacao) {
     case 3:
         console.log("Terceiro lugar");
        break;
+    case 4: case 5: case 6:
+        console.log("Se você terminou em 4, 5 e 6! então receba algo")
+        break;
     default:
-        console.log("Tu não está no top 3 cara, supera!!");
+        console.log("Tu não está no top 6 cara, supera!!");
         break;
 }

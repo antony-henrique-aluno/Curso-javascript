@@ -11,13 +11,16 @@ if (num1 > 10) {
 
 //Usando logica
 
-let idade = 26
+/* let idade = 26;
 
 if (idade < 18) {
-    console.log("É menor de idade")
+    console.log("É menor de idade");
 }else if (idade < 24) {
-    console.log("É maior de idade")
+    console.log("É maior de idade");
 }else{
-    console.log("Milf das boas")
-}
+    console.log("Milf das boas");
+} */
 
+
+let idade = 18
+let temTrabalho = "sim"

@@ -21,7 +21,13 @@ console.log("---------");
 
 //Uma logica qualquer 2
 let casaVenda = 150000;
+let salario = 2500;
 let valorEntrada = parseFloat(prompt("Digite o valor de entrada"));
-let anosPagar = parseInt(prompt("Em quantos anos você vai pagar"));
 let valorTotal = casaVenda - valorEntrada;
+let anosPagar = parseInt(prompt("Em quantos anos você vai pagar"));
 let mesesPagar = anosPagar * 12;
+let valorParcela = valorTotal / mesesPagar;
+
+if (salario < valorParcela) {
+    
+}

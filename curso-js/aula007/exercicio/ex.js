@@ -12,7 +12,7 @@ let speed = 64;
 if (speed < 65) {
     console.log("Uma boa velocidade limite");
 }else if (speed < 75) {
-    console.log("uma boa velocidade, ainda no limite")
+    console.log("uma boa velocidade, ainda no limite");
 }else{
     console.log("se ferror");
 }
@@ -22,9 +22,9 @@ console.log("---------");
 //Uma logica qualquer 2
 let casaVenda = 150000;
 let salario = 2500;
-let valorEntrada = Number(prompt("Digite o valor de entrada"));
+let valorEntrada = 2000;
 let valorTotal = casaVenda - valorEntrada;
-let anosPagar = Number(prompt("Em quantos anos você vai pagar"));
+let anosPagar = 6;
 let mesesPagar = anosPagar * 12;
 let valorParcela = valorTotal / mesesPagar;
 let limiteParcela = salario * 0.3;
@@ -43,7 +43,7 @@ if (salario < valorParcela) {
     console.log("Seu salario não permite comprar uma casa dessa magnetude");
 }else if (limiteParcela < valorParcela) {
     console.log("Cuidado, o valor da parcela é maior que 30% do seu salario");
-    let escolha = Number(prompt("Escolha entre 0 ou 1 para continuar"));
+    let escolha = 0;
     if (escolha != 1) {
         console.log("Sabia escolha, em não estourar seu saldo! volte sempre");
     }else{
@@ -53,3 +53,6 @@ if (salario < valorParcela) {
     console.log("parabens pela compra da casa");
 }
 
+
+
+//Outra logica qualquer

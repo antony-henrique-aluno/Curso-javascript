@@ -31,5 +31,5 @@ if (idade >= 18 && temTrabalho === "sim" && temCertificado === "sim") {
 }else if (idade >= 18 && temTrabalho === "não" && temCertificado === "sim") {
     console.log("Que otimo, Você é maior de idade e tem certificado! pode ficar com o emprego");
 }else if (idade < 18 && temTrabalho === "não" && temCertificado === "não") {
-    console.log("Você menor de idade")
+    console.log("Você menor de idade");
 }

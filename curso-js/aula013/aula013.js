@@ -6,3 +6,4 @@ if (num1 > 10) {
 }else{
     console.log("Não, não é maior");
 }
+

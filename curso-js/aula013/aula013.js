@@ -11,7 +11,7 @@ if (num1 > 10) {
 
 //Usando logica
 
-let idade = 23
+let idade = 26
 
 if (idade < 18) {
     console.log("É menor de idade")

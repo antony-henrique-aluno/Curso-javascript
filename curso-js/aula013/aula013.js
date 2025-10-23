@@ -20,3 +20,4 @@ if (idade < 18) {
 }else{
     console.log("Milf das boas")
 }
+

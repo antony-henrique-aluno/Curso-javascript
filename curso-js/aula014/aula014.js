@@ -1,6 +1,6 @@
 //Aula sobre switch case 
 
-let colocacao = 4;
+let colocacao = 5;
 switch (colocacao) {
     case 1:
        console.log("Caso colocacao seja 1, retorna essa msg!");
@@ -13,7 +13,7 @@ switch (colocacao) {
         console.log("Terceiro lugar");
        break;
     case 4: case 5: case 6:
-        console.log("Se você terminou em 4, 5 e 6! então receba algo")
+        console.log("Se você terminou em 4, 5 e 6! então receba algo");
         break;
     default:
         console.log("Tu não está no top 6 cara, supera!!");

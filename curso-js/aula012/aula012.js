@@ -21,4 +21,10 @@ const soma = (v1, v2, v3) =>{
     return v1 + v2 + v3;
 };
 
-console.log(soma(1, 4, 6))
+// somando valores com spreed
+let valor = [1, 4, 6]
+console.log(soma(...valor));
+
+
+
+// console.log(soma(1, 4, 6))

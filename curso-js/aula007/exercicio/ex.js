@@ -30,13 +30,13 @@ let valorParcela = valorTotal / mesesPagar;
 let limiteParcela = salario * 0.3;
 
 console.log("---financiamento da casa---");
-console.log("--- " + salario + " ---");
-console.log("--- " + valorEntrada + " ---");
-console.log("--- " + valorTotal + " ---");
-console.log("--- " + anosPagar + " ---");
-console.log("--- " + mesesPagar + " ---");
-console.log("--- " + valorParcela + " ---");
-console.log("--- " + limiteParcela + " ---");
+console.log("--- " + salario + "R$" + " ---");
+console.log("--- " + valorEntrada + "R$" + " ---");
+console.log("--- " + valorTotal + "R$" + " ---");
+console.log("--- " + anosPagar + "anos" + " ---");
+console.log("--- " + mesesPagar + "meses" + " ---");
+console.log("--- " + valorParcela + "R$" + " ---");
+console.log("--- " + limiteParcela + "%" + " ---");
 
 
 if (salario < valorParcela) {

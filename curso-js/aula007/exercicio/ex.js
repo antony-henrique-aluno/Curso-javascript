@@ -22,14 +22,17 @@ console.log("---------");
 //Uma logica qualquer 2
 let casaVenda = 150000;
 let salario = 2500;
-let valorEntrada = parseFloat(prompt("Digite o valor de entrada"));
+let valorEntrada = Number(prompt("Digite o valor de entrada"));
 let valorTotal = casaVenda - valorEntrada;
-let anosPagar = parseInt(prompt("Em quantos anos você vai pagar"));
+let anosPagar = Number(prompt("Em quantos anos você vai pagar"));
 let mesesPagar = anosPagar * 12;
 let valorParcela = valorTotal / mesesPagar;
+let limiteParcela = salario * 0.3;
 
 if (salario < valorParcela) {
     console.log("Seu salario não permite comprar uma casa dessa magnetude");
+}else if (limiteParcela < valorParcela) {
+    console.log("Cuidado, o valor da parcela é maior que 30% do seu salario");
 }else{
-    console.log("Parabéns, você parcelou um bela casa");
+    console.log("parabens pela compra da casa");
 }

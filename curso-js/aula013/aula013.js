@@ -22,14 +22,14 @@ if (idade < 18) {
 } */
 
 
-let idade = 18;
+let idade = 17;
 let temTrabalho = "não";
-let temCertificado = "sim";
+let temCertificado = "não";
 
 if (idade >= 18 && temTrabalho === "sim" && temCertificado === "sim") {
     console.log("Que incrivel, Você tem grande chances de ter um bom futuro");
 }else if (idade >= 18 && temTrabalho === "não" && temCertificado === "sim") {
     console.log("Que otimo, Você é maior de idade e tem certificado! pode ficar com o emprego");
-}else if (idade < 18) {
+}else if (idade < 18 && temTrabalho === "não" && temCertificado === "não") {
     console.log("Você menor de idade")
 }

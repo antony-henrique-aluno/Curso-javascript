@@ -19,4 +19,6 @@ console.log(jogador3); */
 
 const soma = (v1, v2, v3) =>{
     return v1 + v2 + v3;
-}
+};
+
+console.log(soma(1, 4, 6))

@@ -20,3 +20,5 @@ if (speed < 65) {
 console.log("---------")
 
 //Uma logica qualquer 2
+let casaVenda = 150000;
+let valorEntrada = prompt("Digite o valor de entrada");

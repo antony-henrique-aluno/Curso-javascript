@@ -9,7 +9,7 @@
 //console.log("n3: " + n3)
 //console.log("Tipo: " + typeof(n3))
 
-const jogador1 = {nome: "Ghislane", energia: 100, vidas: 3};
+const jogador1 = {nome: "Ghislane", energia: 100, vidas: 3, forca: 10};
 const jogador2 = {nome: "Eris", energia: 150, vidas: 2, speed: 20};
 const jogador3 = {...jogador1, ...jogador2};
 

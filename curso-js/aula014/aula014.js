@@ -1,6 +1,6 @@
 //Aula sobre switch case 
 
-let colocacao = 2;
+let colocacao = 4;
 switch (colocacao) {
     case 1:
        console.log("Caso colocacao seja 1, retorna essa msg!") 

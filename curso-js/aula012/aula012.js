@@ -9,8 +9,14 @@
 //console.log("n3: " + n3)
 //console.log("Tipo: " + typeof(n3))
 
-const jogador1 = {nome: "Ghislane", energia: 100, vidas: 3, forca: 10};
+/* const jogador1 = {nome: "Ghislane", energia: 100, vidas: 3, forca: 10};
 const jogador2 = {nome: "Eris", energia: 150, vidas: 2, speed: 20};
 const jogador3 = {...jogador1, ...jogador2};
 
-console.log(jogador3);
+console.log(jogador3); */
+
+// spreed com funcoes
+
+function soma = (v1, v2, v3) =>{
+    
+}

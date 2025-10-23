@@ -24,3 +24,4 @@ if (idade < 18) {
 
 let idade = 18
 let temTrabalho = "sim"
+let temCertificado = "sim";

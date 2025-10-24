@@ -18,4 +18,10 @@
 } */
 
 //// Imprima a tabuada do 7 (de 1 a 10)
-
+let tabuada = 
+for(let i = 1; i <= 10; i++){
+    for (let j = 1; j <= 7; j++) {
+        let soma = i + j
+        console.log(`${i} + ${j} = ${soma}`)
+    }
+}

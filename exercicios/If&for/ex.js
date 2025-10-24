@@ -16,3 +16,4 @@ for(let i = 0; i < texto.length; i++){
         console.log(cont)
     }
 }
+

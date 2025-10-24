@@ -18,6 +18,8 @@ for(let i = 0; i < 10; i++){
     //Exemplo: o i=0 é maior que 10? não 
     //o i=1 é menor que 10? é
     //o i=8 é menor que 10? é
-    //o i=10 é menor que 10? não! i=10 agora é igual a 10
+    //o i=10 é menor que 10? não! i=10 agora é igual a 10.
+    //Agora que i é igual a 10, o loop for deixa de rodar 
+    e segue o programa
     
 }

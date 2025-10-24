@@ -33,6 +33,8 @@ for(let i = 0; i < 100; i++){
     //Se zero é visto como false na programaçao
     // ent so preciso inverter a logica com !not
     if(!i % 2){
-        console.log(i + " É tudo par");
+        console.log(i + " É tudo impar");
+    }else{
+        console.log(i + " E tudo par")
     }
 }

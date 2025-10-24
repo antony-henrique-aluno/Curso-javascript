@@ -1,6 +1,17 @@
 //Aula sobre for in e for of
 
 
+const objts = document.getElementsByTagName("div");
+for(elemets of objts){
+    console.log(elemets.innerHTML = "Deu certo?")
+}
+
+
+
+
+
+
+
 const arr = [10 ,11, 30, 31, 40, 41]
 
 

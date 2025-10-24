@@ -29,5 +29,8 @@
 // Dado o array, imprima cada elemento
 const frutas = ['maçã', 'banana', 'laranja', 'uva'];
 for (let i = 0; i < frutas.length; i++) {
-    console.log(`Frutas ${frutas[i]}: e seu index ${i}`)
+    console.log(`Frutas ${frutas[i] /*Acessa cada fruta*/}: e seu index ${i}`)
 }
+
+const nomes = ["re zero", "mushoku tensei", "DxD"];
+const nome = "One piece";

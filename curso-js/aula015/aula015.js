@@ -27,3 +27,4 @@ for(let i = 0; i < 10; i++){
 console.log("Fim do prograna")
 
 // Os cuidados que teremos que tomar com o loop for
+// Cuidado 1 = tome cuidado com loops infinitos

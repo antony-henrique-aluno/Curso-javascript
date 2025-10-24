@@ -34,5 +34,7 @@ for(let i = 0; i < 100; i++){
     // ent so preciso inverter a logica com !not
     if(!(i % 2)){
         console.log(i + " É tudo par");
+    }else if(!(i % 3)){
+        console.log(i + " seria impar ou par?")
     }
 }

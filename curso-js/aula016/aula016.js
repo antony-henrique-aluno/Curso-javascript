@@ -4,14 +4,24 @@
 const arr = [10 ,11, 30, 31, 40, 41]
 
 
-for(posi in arr){
+for(posi of arr){
+   console.log(posi)
+}
+
+
+
+
+
+
+
+/* for(posi in arr){
     console.log(arr[posi]) 
     //Imprimindo os elementos do array usando for in
     //Para imprimir os elementos de uma array com o for in
     //Primeiro use o nome da array e depois o nome da variavel
     //que foi criada dentro do for in.
 }
-
+ */
 
 // percorrendo uma array com o for tradicional
 /* for(let i = 0; i < arr.length; i++){

@@ -41,3 +41,13 @@ if (dia === "sábado" || dia === "domingo") {
 }else{
     console.log(`Hoje é ${dia}!`);
 }
+
+// Verifique se um número é positivo, negativo ou zero
+const numero = -5;
+if (numero < 0) {
+    console.log("É numero negativo")
+}else if (numero > 0) {
+    console.log("É numero positivo")
+}else{
+    console.log("É numero é zero")
+}

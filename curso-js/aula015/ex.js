@@ -11,6 +11,11 @@
 } */
 
 //Calcule a soma de todos os números de 1 a 100
-for(let i = 0; i <= 100; i++){
-    
-}
+/* for(let i = 0; i <= 100; i++){
+    let soma = 3 * i
+    let res = soma 
+    console.log(`${soma} * ${i} = ${res}`)
+} */
+
+//// Imprima a tabuada do 7 (de 1 a 10)
+

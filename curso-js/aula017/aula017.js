@@ -7,7 +7,7 @@ while(cont < 10){
 }
 
 
-let nome = "hestia";
-while(nome !== "hestia"){
-    console.log("tenta dnovo cara")
-}
+//Fatorial de 5! 5*4*3*2*1 
+
+let n = 5 
+let fatorial = 1;

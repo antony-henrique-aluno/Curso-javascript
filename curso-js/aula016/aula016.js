@@ -18,6 +18,7 @@ const arr = [10 ,11, 30, 31, 40, 41]
 for(posi of arr){
    console.log(posi)
    //O for of imprime diretamente os elementos dentro de uma array
+   //Recomendado usar a variavel criada dentro do for of
 }
 
 

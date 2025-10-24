@@ -21,7 +21,7 @@ if (nota >= 90) {
 
 
 // Verifique se um dia é fim de semana
-const dia = 'sábado';
+const dia = 'domingo';
 if (dia === "segunda") {
     console.log("Hoje é segunda")
 }else if (dia === "terça") {
@@ -34,4 +34,10 @@ if (dia === "segunda") {
     console.log("Hoje é sexta");
 }else if(dia === "sabado" || dia === "domingo"){
     console.log("Hoje é " + dia + " dia de semana");
+}
+
+if (dia === "sábado" || dia === "domingo") {
+    console.log(`Hoje é ${dia}! Um dia de semana`);
+}else{
+    console.log(`Hoje é ${dia}!`);
 }

@@ -3,8 +3,21 @@
 // O loop for tem a seguinte sintax e para faze-lo funcionar
 // eu preciso de 3 areas dentro do loop for!
 
-for (let primeiro a inicialização = 
+/* for (let primeiro a inicialização = 
 0; segundo a condição de execução < 
 limit; e terceiro, o controle++) {
+    
+} */
+
+
+//Teste ou pratica, como quiser chamar
+for(let i = 0; i < 10; i++){
+    //o for é um loop que vai continuar sendo executado enquanto
+    //a sua condição é verdadeira.
+    console.log("Teste")
+    //Exemplo: o i=0 é maior que 10? não 
+    //o i=1 é menor que 10? é
+    //o i=8 é menor que 10? é
+    //o i=10 é menor que 10? não! i=10 agora é igual a 10
     
 }

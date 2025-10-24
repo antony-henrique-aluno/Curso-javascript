@@ -29,10 +29,30 @@ console.log("Fim do prograna")
 // Os cuidados que teremos que tomar com o loop for
 // Cuidado 1 = tome cuidado com loops infinitos
 
-for(let i = 0; i < 100; i++){
+for(let i = 0; i < 3; i++){
     //Se zero é visto como false na programaçao
     // ent so preciso inverter a logica com !not
     if(!(i % 2)){
         console.log(i + " É tudo par");
+    }
+}
+
+
+/* let cont = 2
+for (let i = 0; i < cont; i++) {
+    for (let j = 0; j < 20; j++) {
+        let soma = i + j
+        console.log(`Soma entre ${i} + ${j} é igual a ${soma}`)
+    }
+} */
+
+
+// let digite = prompt("Digite algo");
+let digite = prompt("Digite algo").toLocaleLowerCase();
+for(let i = 0; i < 3; i++){
+    if (digite !== "deu certo") {
+        console.log("Tente dnovo");
+    }else{
+        console.log("Deu certo");
     }
 }

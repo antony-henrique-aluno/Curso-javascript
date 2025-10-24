@@ -67,7 +67,9 @@ for(let i = 0; i < 3; i++){
 
 
 let array1 = ["nome1", "nome2", "nome3", "nome4"];
+let teste = "nome5"
 
+console.log(array1)
 for(let i = 0; i < array1.length; i++){
-    
+    console.log([i])
 }

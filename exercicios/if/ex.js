@@ -19,3 +19,6 @@ if (nota >= 90) {
     console.log("Sua nota é D")
 }
 
+
+// Verifique se um dia é fim de semana
+const dia = 'sábado';

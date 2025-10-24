@@ -4,3 +4,15 @@ for(let i = 1; i <= 50; i++){
         console.log(`Todos os numeros impar são ${i}`)
     }
 }
+
+
+// Conte quantas vogais existem em uma string
+const texto = "";
+let cont = 0 
+let vogais = "aeiou";
+for(let i = 0; i < texto.length; i++){
+    if(vogais.indexOf(texto[i]) !== -1){
+        cont++
+        console.log(cont)
+    }
+}

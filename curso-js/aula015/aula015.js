@@ -48,11 +48,17 @@ for (let i = 0; i < cont; i++) {
 
 
 // let digite = prompt("Digite algo");
-let digite = prompt("Digite algo").toLocaleLowerCase();
+let acertou = false;
 for(let i = 0; i < 3; i++){
+    let digite = prompt("Digite algo").toLocaleLowerCase();
     if (digite !== "deu certo") {
         console.log("Tente dnovo");
     }else{
         console.log("Deu certo");
+        acertou = true;
+        break;
     }
+if (!acertou) {
+    console.log("Suas tentativas acabaram")
+}
 }

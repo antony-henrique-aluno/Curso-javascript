@@ -11,6 +11,7 @@ limit; e terceiro, o controle++) {
 
 
 //Teste ou pratica, como quiser chamar
+console.log("Inicio do programa")
 for(let i = 0; i < 10; i++){
     //o for é um loop que vai continuar sendo executado enquanto
     //a sua condição é verdadeira.
@@ -21,5 +22,6 @@ for(let i = 0; i < 10; i++){
     //o i=10 é menor que 10? não! i=10 agora é igual a 10.
     //Agora que i é igual a 10, o loop for deixa de rodar 
     //e segue o programa
-    
 }
+
+console.log("Fim do prograna")

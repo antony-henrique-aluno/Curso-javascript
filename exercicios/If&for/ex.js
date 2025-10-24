@@ -17,3 +17,8 @@ for(let i = 0; i < texto.length; i++){
     }
 }
 
+// Encontre o maior número em um array
+const numeros = [3, 7, 2, 9, 1, 4];
+for(let i = 0; i < numeros.length; i++){
+    
+}

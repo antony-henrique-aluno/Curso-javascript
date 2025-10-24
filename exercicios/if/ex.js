@@ -7,14 +7,14 @@ if(idade >= 18){
 }
 
 // Classifique uma nota: A (>=90), B (>=80), C (>=70), D (<70)
-const nota = 85;
+const nota = 60;
 
-if (nota < 70) {
-    console.log("Sua nota é D")
-}else if (nota >= 70) {
-    console.log("Sua nota é C")
+if (nota >= 90) {
+    console.log("Sua nota é A")
 }else if (nota >= 80) {
     console.log("Sua nota é B")
+}else if (nota >= 70) {
+    console.log("Sua nota é C")
 }else{
-    console.log("Sua nota é A")
+    console.log("Sua nota é D")
 }

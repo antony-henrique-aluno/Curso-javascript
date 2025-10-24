@@ -59,7 +59,7 @@ for(let i = 0; i < 3; i++){
         break;
     }
     
-    if (!acertou) {
+    if (!acertou ) {
         console.log("Suas tentativas acabaram")
     }
 }

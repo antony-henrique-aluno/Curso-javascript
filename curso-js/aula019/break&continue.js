@@ -14,7 +14,7 @@
 //Exemplos
 let n = 0;
 let max = 1000;
-while(n < max){
+while(n > max){
     //Se n for maior que 10 o loop entra na condição
     //dentro do if, o loop encontra o break, o break
     //é execultado e o loop é interrompido

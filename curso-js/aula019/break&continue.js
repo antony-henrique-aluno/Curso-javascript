@@ -11,7 +11,7 @@
 //a interação atual.
 
 
-//Exemplos
+//Exemplo break
 let n = 0;
 let max = 1000;
 while(n < max){
@@ -25,3 +25,6 @@ while(n < max){
     n++;
 }
 console.log("Continuando o programa");
+
+
+//Exemplo continue

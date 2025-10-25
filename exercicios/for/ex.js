@@ -11,3 +11,5 @@ for(let i = 0; i < 20; i++){
         console.log(`O numero ${i} é par`);
     }
 }
+
+// 3 - Calculando a soma dos numeros de 1 a 100

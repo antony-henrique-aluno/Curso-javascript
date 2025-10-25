@@ -8,7 +8,7 @@ for (let i = 0; i < arr.length; i++) {
 //Pecorre cada elemento da array
 
     if (arr[i] > maiorNum) {
-        //Compara o elemento atual, com o maior elemento
+    //Compara o elemento atual, com o maior elemento
     //encontrado dentro da array
         
         maiorNum = arr[i]; //Atualiza a array com o maior numero encontrado

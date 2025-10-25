@@ -5,9 +5,9 @@
 // 1-Verificando se um numero é positivo ou negativo
 let n = -1 
 if (n < 0) {
-    console.log(`${n} é um numero negativo`)
+    console.log(`${n} é um numero negativo`);
 }else{
-    console.log(`${n} é um numero positivo`)
+    console.log(`${n} é um numero positivo`);
 }
 
 // 2-Verificando se a pessoa é maior ou menor de idade
@@ -21,13 +21,13 @@ if (idade >= 18 && idade < 24) {
 }else if(idade >= 42){
     console.log("Com toda a certeza é uma elfa");
 }else{
-    console.log("Ainda é menor de idade")
+    console.log("Ainda é menor de idade");
 }
 
 // 3-Verificando se o numero é par 
 let imparPar = 10
 if (!(imparPar % 2 === 0)) {
-    console.log(`${imparPar} é impar`)
+    console.log(`${imparPar} é impar`);
 }else{
-    console.log(`${imparPar} é par`)
+    console.log(`${imparPar} é par`);
 }

@@ -17,4 +17,8 @@ console.log(maiorNum); //Imprime o valor
 
 let arr2 = [100, 30, 50, 1001, 60];
 let maior = arr2[0];
-for()
+for(posiArr of arr2){
+    if (posiArr > maior) {
+        
+    }
+}

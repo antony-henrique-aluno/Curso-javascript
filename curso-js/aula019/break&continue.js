@@ -18,3 +18,4 @@ while(n < max){
     console.log(`Loopando ${n}`);
     n++
 }
+console.log("Fim do programa")

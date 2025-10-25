@@ -33,8 +33,8 @@ let energia = 1000;
 let contPares = 0 //Contador dos numeros pares
 for(let i = b; i < energia; i++){
     // console.log(`loop for ${i}`)
-    if (i % 2 === 0) {
-        
+    if (i % 2 !== 0) {
+        continue;
     }
     contPares++
 }

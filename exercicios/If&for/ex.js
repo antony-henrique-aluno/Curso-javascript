@@ -17,8 +17,12 @@ console.log(maiorNum); //Imprime o valor
 
 let arr2 = [100, 30, 50, 1001, 60];
 let maior = arr2[0];
+//A variavel maior começa com o menor numero da array
+
 for(posiArr of arr2){
     if (posiArr > maior) {
-        
+        maior = posiArr
     }
 }
+
+console.log(maior)

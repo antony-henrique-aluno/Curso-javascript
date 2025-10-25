@@ -30,8 +30,13 @@ console.log("Continuando o programa");
 //Exemplo continue
 let b = 0;
 let energia = 1000;
+let contPares = 0
 for(let i = b; i < energia; i++){
     console.log(`loop for ${i}`)
+    if (i % 2 === 0) {
+        console.log(`${contPares} ${i}`)
+        contPares
+    }
 }
 
 console.log("fim do programa");

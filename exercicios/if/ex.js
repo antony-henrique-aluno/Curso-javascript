@@ -24,3 +24,11 @@ if (idade >= 18 && idade < 24) {
 }else{
     console.log("Ainda é menor de idade")
 }
+
+// 3-Verificando se o numero é par 
+let imparPar = 10
+if (!(imparPar % 2 === 0)) {
+    console.log(`${imparPar} é impar`)
+}else{
+    console.log(`${imparPar} é par`)
+}

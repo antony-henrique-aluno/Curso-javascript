@@ -33,3 +33,9 @@ for(posiArr of arr2){
 }
 
 console.log(`O maior numero dentro da array é ${maior}`)
+
+
+//Procure numeros positivos e negativos de uma array
+let numeros = [10, -10, 5, -5, 60, 77, 1, 33]
+// Seu código aqui
+console.log("Positivos:", positivos, "Negativos:", negativos);

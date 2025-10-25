@@ -4,11 +4,13 @@
 let arr = [10, 15, 20, 25, 30, 1000];
 let maiorNum = arr[0]; //Começa com o maior numero de uma array 
 
-//Pecorre cada elemento da array
 for (let i = 0; i < arr.length; i++) {
-    //Compara o elemento atual com o maior elemento
-    //encontrado dentro da array
+//Pecorre cada elemento da array
+
     if (arr[i] > maiorNum) {
+        //Compara o elemento atual, com o maior elemento
+    //encontrado dentro da array
+        
         maiorNum = arr[i]; //Atualiza a array com o maior numero encontrado
     }
     // console.log(maiorNum)
@@ -24,6 +26,8 @@ for(posiArr of arr2){
 //Lembrando que, para mostrar cada elemento da array com o for of 
 // precisa-se usar a variavel criada dentro do for of
     if (posiArr > maior) {
+        //Condição que compara o elemento atual,
+        //com o maior encontrado 
         maior = posiArr
     }
 }

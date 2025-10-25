@@ -30,6 +30,6 @@ console.log("Continuando o programa");
 //Exemplo continue
 let b = 0;
 let energia = 1000;
-for(let i = n; i < energia; i++){
-    
+for(let i = b; i < energia; i++){
+    console.log(`loop for ${i}`)
 }

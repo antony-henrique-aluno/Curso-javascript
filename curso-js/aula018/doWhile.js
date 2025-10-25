@@ -2,9 +2,9 @@
 
 
 
-//A diferença entre while e  do while é que, o do while
+//A diferença entre while e do while é que, o do while
 //vai ao menos garantir a execução do programa ao menos
-//uma vez
+//uma vez, diferente do loop while convencional.
 let n = 0 
 while(n < 10){
     console.log(n)

@@ -15,7 +15,7 @@ for(let i = 0; i < 20; i++){
 // 3 - Calculando a soma dos numeros de 1 a 100
 let soma = 0 //Variavel que armazena a soma de todos os numeros
 //ou seja, um contador
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i <= 100; i++) {
     soma += i
 }
 console.log(soma)

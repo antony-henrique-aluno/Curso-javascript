@@ -56,4 +56,6 @@ for(arrayNum of numeros){
     }
 }
 console.log(`A array numeros tem ${posi} numeros positivos`)
+console.log(`O maior numero positivo é ${maiorNumPosi}`)
+
 console.log(`A array numeros tem ${nega} numeros negativos`)

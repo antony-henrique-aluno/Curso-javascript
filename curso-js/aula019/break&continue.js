@@ -33,3 +33,5 @@ let energia = 1000;
 for(let i = b; i < energia; i++){
     console.log(`loop for ${i}`)
 }
+
+console.log("fim do programa");

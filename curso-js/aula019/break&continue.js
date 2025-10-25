@@ -22,6 +22,6 @@ while(n < max){
         break;
     }
     console.log(`Loopando ` + n);
-    n++
+    n++;
 }
 console.log("Continuando o programa");

@@ -18,4 +18,4 @@ let soma = 0 //Variavel que armazena a soma de todos os numeros
 for (let i = 0; i <= 100; i++) {
     soma += i
 }
-console.log(soma)
+console.log(`O valor de cada numero soma é de ${soma}`)

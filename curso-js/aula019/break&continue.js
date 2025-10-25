@@ -13,9 +13,15 @@
 
 //Exemplos
 let n = 0;
-let max = 100;
+let max = 1000;
 while(n < max){
-    console.log(`Loopando ${n}`);
+    //Se n for maior que 10 o loop entra na condição
+    //dentro do if, o loop encontra o break, o break
+    //é execultado e o loop é interrompido
+    if (n > 10) {
+        break;
+    }
+    console.log(`Loopando ` + n);
     n++
 }
-console.log("Fim do programa")
+console.log("Continuando o programa");

@@ -20,6 +20,9 @@ let maior = arr2[0];
 //A variavel maior começa com o menor numero da array
 
 for(posiArr of arr2){
+//O for of percorre cada elemento da array
+//Lembrando que, para mostrar cada elemento da array com o for of 
+// precisa-se usar a variavel criada dentro do for of
     if (posiArr > maior) {
         maior = posiArr
     }

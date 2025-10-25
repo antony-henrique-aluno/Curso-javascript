@@ -28,7 +28,7 @@ for(posiArr of arr2){
     if (posiArr > maior) {
         //Condição que compara o elemento atual,
         //com o maior encontrado 
-        maior = posiArr
+        maior = posiArr // A variavel maior recebe a array atualizada com o maior elemento
     }
 }
 

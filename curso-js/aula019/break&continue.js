@@ -34,8 +34,9 @@ let contPares = 0
 for(let i = b; i < energia; i++){
     // console.log(`loop for ${i}`)
     if (i % 2 === 0) {
-        contPares++
+        
     }
+    contPares++
 }
 console.log(`Quantidade de pares: ${contPares}`)
 

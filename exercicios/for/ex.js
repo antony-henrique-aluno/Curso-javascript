@@ -19,5 +19,7 @@ for (let i = 0; i <= 100; i++) {
     soma += i
 }
 //Colocando o console.log pra fora do loop for 
-//assim visualizo apenas o resultado final 
+//assim visualizo apenas o resultado final.
+//===========//
+//Faça isso quando deseja ver apenas o resultado final
 console.log(`O valor de cada numero soma é de ${soma}`)

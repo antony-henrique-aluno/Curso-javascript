@@ -15,4 +15,6 @@ if (n < 0) {
 let idade = 17
 if (idade >= 18 && idade < 24) {
     console.log("Essa garota já é maior de idade");
+}else if (idade >= 24 && idade < 32) {
+    console.log("Essa garota já é maior de idade e tambem uma bela milf");
 }

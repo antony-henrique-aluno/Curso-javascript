@@ -28,3 +28,6 @@ console.log("Continuando o programa");
 
 
 //Exemplo continue
+let b = 0;
+let energia = 1000;
+for()

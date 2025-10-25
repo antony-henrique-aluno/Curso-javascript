@@ -40,5 +40,12 @@ let numeros = [10, -10, 5, -5, 60, 77, 1, 33, 0]
 let posi = 0;
 let nega = 0;
 for(arrayNum of numeros){
+    if (arrayNum === null) {
+        console.log("Array vazia")
+    }
     
+    if (arrayNum > 0) {
+        posi++
+        console.log(`A array numeros tem ${posi} numeros positivos`)
+    }
 }

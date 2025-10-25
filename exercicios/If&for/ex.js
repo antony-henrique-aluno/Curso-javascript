@@ -63,3 +63,7 @@ console.log(`O maior numero positivo é ${maiorNumPosi}`)
 
 console.log(`A array numeros tem ${nega} numeros negativos`)
 console.log(`O menor numero da array é ${maiorNumNega}`)
+
+
+//Calculando a media de uma array de notas
+let nota = [8.5, 7, 7.5, 9.5, 6.6];

@@ -30,7 +30,7 @@ console.log("Continuando o programa");
 //Exemplo continue
 let b = 0;
 let energia = 1000;
-let contPares = 0
+let contPares = 0 //Contador dos numeros pares
 for(let i = b; i < energia; i++){
     // console.log(`loop for ${i}`)
     if (i % 2 === 0) {

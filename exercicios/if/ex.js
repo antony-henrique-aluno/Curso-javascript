@@ -9,3 +9,7 @@ if (n < 0) {
 }else{
     console.log(`${n} é um numero positivo`)
 }
+
+// 2-Verificando se a pessoa é maior ou menor de idade
+
+let idade = 17

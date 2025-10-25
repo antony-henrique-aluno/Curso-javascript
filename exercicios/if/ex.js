@@ -13,3 +13,6 @@ if (n < 0) {
 // 2-Verificando se a pessoa é maior ou menor de idade
 
 let idade = 17
+if (idade >= 18 && idade < 24) {
+    console.log("Essa garota já é maior de idade");
+}

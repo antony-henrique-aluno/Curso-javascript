@@ -4,12 +4,15 @@ for(let i = 0; i <= 10; i++){
 }
 
 // 2 - imprimindo numeros pares de 1 a 20
+let par = 0
 for(let i = 0; i < 20; i++){
     if (!(i % 2 === 0)) {
         console.log(`O numero ${i}  é impar`);
     }else{
-        console.log(`O numero ${i} é par`);
+        par++
+        console.log(`O numero ${i} é par ${par}`);
     }
+    console.log(par)
 }
 
 // 3 - Calculando a soma dos numeros de 1 a 100

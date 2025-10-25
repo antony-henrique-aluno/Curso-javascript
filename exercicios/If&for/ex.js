@@ -15,4 +15,4 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(maiorNum); //Imprime o valor
 
-let arr2 = [100, 30, 50, 1001, 60]
+let arr2 = [100, 30, 50, 1001, 60];

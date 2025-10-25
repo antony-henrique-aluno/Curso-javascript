@@ -32,4 +32,4 @@ for(posiArr of arr2){
     }
 }
 
-console.log(maior)
+console.log(`O maior numero dentro da array é ${maior}`)

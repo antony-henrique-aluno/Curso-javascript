@@ -48,7 +48,9 @@ for(arrayNum of numeros){
     
     if (arrayNum > 0) {
         posi+=1
-        if()
+        if(arrayNum > maiorNumPosi){
+            maiorNumPosi = arrayNum;
+        }
     }else if(arrayNum < 0){
         nega++
     }

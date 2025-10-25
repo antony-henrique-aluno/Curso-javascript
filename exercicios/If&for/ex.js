@@ -39,8 +39,8 @@ console.log(`O maior numero dentro da array é ${maior}`)
 let numeros = [10, -10, 5, -5, 60, 77, 1, 33, 0]
 let posi = 0;
 let nega = 0;
-let maiorNumPosi = numeros[0]
-let maiorNumNega = numeros[0]
+let maiorNumPosi = numeros[0] //Acessa o primeiro numero da array
+let maiorNumNega = numeros[0] 
 for(arrayNum of numeros){
     if (arrayNum === null) {
         console.log("Array vazia")

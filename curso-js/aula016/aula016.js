@@ -31,8 +31,8 @@ for(posi of arr){
 /* for(posi in arr){
     console.log(arr[posi]) 
     //Imprimindo os elementos do array usando for in
-    //Para imprimir os elementos de uma array com o for in
-    //Primeiro use o nome da array e depois o nome da variavel
+    //Para imprimir os elementos de uma array com o for in,
+    //primeiro, use o nome da array e depois o nome da variavel
     //que foi criada dentro do for in.
 }
  */

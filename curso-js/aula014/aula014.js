@@ -13,7 +13,7 @@ switch (colocacao) {
         console.log("Terceiro lugar");
        break;
     case 4: case 5: case 6:
-        // Você tem pode fazer varios cases na mesma linha como o exemplo
+        // Você tbm pode fazer varios cases na mesma linha como o exemplo
         //logo acima; case 4: case 5: case 6:
         console.log("Se você terminou em 4, 5 e 6! então receba algo");
         break;

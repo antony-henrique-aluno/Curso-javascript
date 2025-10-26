@@ -73,10 +73,16 @@ for(arrayNotas of notas){
     if (arrayNotas > maiorNota) {
         maiorNota = arrayNotas 
     }
-    console.log(`Exibindo cada nota da array ${arrayNotas}`)
+    // console.log(`Exibindo cada nota da array ${arrayNotas}`)
     soma += arrayNotas
     media = soma / notas.length
 }
 console.log(`A maior nota dentro da array é ${maiorNota}`)
 console.log(`Soma total de notas dentro da array ${soma}`)
 console.log(`Media de notas dentro da array ${media.toFixed(2)}`)
+
+
+//Contando quantas vogais aparece em uma palavra
+let nomeQualquer = "estou aprendendo javascript";
+let vogais = "aeiou";
+let conVogais = 0

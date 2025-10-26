@@ -1,20 +1,20 @@
 //Calculando o imc
 let peso = Number(prompt("Digite o seu peso"));
 let altura = Number(prompt("Digite a sua altura"));
-let resultado = peso / (altura * 2);
-let imcValue = resultado.toFixed(2);
-switch (peso === null || altura === null) {
-    case 1:
-        console.log(`O prompt ${peso} e o prompt ${altura} estão vazias, digite algo.`)
-        break;
-}
 
-if (imcValue < 18) {
-    console.log("Abaixo do peso! " + imcValue);
-}else if(resultado < 25){
-    console.log("Peso normal " + imcValue)
-}else if (resultado < 30) {
-    console.log("Está ficando obeso " + imcValue)
+
+if (peso && altura) {
+    let resultado = peso / (altura * 2);
+    let imcValue = resultado.toFixed(2);
+    if (imcValue < 18) {
+        console.log(`você pesa ${imcValue} Kg está abaixo do peso`);
+    }else if (imcValue < 25) {
+        console.log(`você pesa ${imcValue} Kg está com a pesagem normal`);
+    }else if (imcValue < 30) {
+        console.log(`você pesa ${imcValue} Kg está ficando obeso`);
+    }else{
+        console.log(`você pesa ${imcValue} Kg, ESTÁ TOTALMENTE OBESO`);
+    }
 }else{
-    console.log("Está obeso " + imcValue)
+    console.log("Valores invalidos");
 }

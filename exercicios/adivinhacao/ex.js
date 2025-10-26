@@ -10,5 +10,7 @@ for (let i = 0; i < tentativas; i++) {
     if (usuario === cpu) {
         console.log(`Seu numero foi ${usuario} o da cpu foi ${cpu}`)
         win = true
+    }else{
+        console.log("Você errou")
     }
 }

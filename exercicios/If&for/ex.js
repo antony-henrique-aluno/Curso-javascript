@@ -86,15 +86,15 @@ console.log(`Media de notas dentro da array ${media.toFixed(2)}`)
 let letras = "estou aprendendo javascript";
 let vogais = "aeiou";
 let contVogais = 0;
-for(let i = 0; i < letras.length; i++){
-    if (letras[i] === vogais) {
+/* for(let i = 0; i < letras.length; i++){
+    if (vogais.indexOf(letras[i]) !== -1) {
         contVogais++;
     }
 }
-console.log(contVogais)
+console.log(contVogais) */
 
-for(vog of letras){
-    if (vog === vogais) {
+for(const vog of letras){
+    if (vogais.includes(vog)) {
         contVogais++
     }
 }

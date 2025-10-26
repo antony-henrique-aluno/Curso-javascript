@@ -4,3 +4,9 @@
 let cpu = Math.floor(Math.random() * 10) + 1;
 let usuario = Number(prompt("Tente adivinha o numero da CPU"));
 let tentativas = 3;
+
+for (let i = 0; i < tentativas; i++) {
+    if (usuario !== cpu) {
+        console.log("Você errou")
+    }
+}

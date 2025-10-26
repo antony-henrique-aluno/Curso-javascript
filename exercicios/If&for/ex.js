@@ -66,4 +66,16 @@ console.log(`O menor numero da array é ${maiorNumNega}`)
 
 
 //Calculando a media de uma array de notas
-let nota = [8.5, 7, 7.5, 9.5, 6.6];
+let notas = [8.5, 7, 7.5, 9.5, 3, 10];
+let soma = 0
+let maiorNota = notas[0]
+for(arrayNotas of notas){
+    if (arrayNotas > maiorNota) {
+        maiorNota = arrayNotas
+    }
+    console.log(`Exibindo cada nota da array ${arrayNotas}`)
+    soma += arrayNotas
+    media = soma / notas.length
+}
+console.log(`Soma total de notas dentro da array ${soma}`)
+console.log(`Media de notas dentro da array ${media.toFixed(2)}`)

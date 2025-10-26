@@ -92,3 +92,10 @@ for(let i = 0; i < letras.length; i++){
     }
 }
 console.log(contVogais)
+
+for(vog of letras){
+    if (vog === vogais) {
+        contVogais++
+    }
+}
+console.log(contVogais)

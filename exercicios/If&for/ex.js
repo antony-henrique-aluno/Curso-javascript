@@ -83,14 +83,12 @@ console.log(`Media de notas dentro da array ${media.toFixed(2)}`)
 
 
 //Contando quantas vogais aparece em uma palavra
-let nomeQualquer = "estou aprendendo javascript";
+let letras = "estou aprendendo javascript";
 let vogais = "aeiou";
-let contVogais = 0
-for(let i = 0; i < nomeQualquer.length; i++){
-    let nomeValue = nomeQualquer.toLocaleLowerCase().trim()
-    if (nomeValue[i] === vogais) {
-        contVogais++
-        
+let contVogais = 0;
+for(let i = 0; i < letras.length; i++){
+    if (letras[i] === vogais) {
+        contVogais++;
     }
 }
-console.log(`A quantidade de vogais é ${contVogais}`)
+console.log(contVogais)

@@ -9,9 +9,12 @@ let win = false
 for (let i = 0; i < tentativas; i++) {
     if (usuario === cpu) {
         console.log(`Seu numero foi ${usuario} o da cpu foi ${cpu}`)
-        win = true
+        win = true;
+        break;
     }else{
-        console.log("Você errou")
-        console.log(`Seu numero foi ${usuario} o da cpu foi ${cpu}`)
+        console.log(`Você errou, seu numero foi ${usuario} o da cpu foi ${cpu}`);
+    }
+    if (!win && tentativas === 2) {
+        console.log(`${tentativas} você não tem mais tentativas`)
     }
 }

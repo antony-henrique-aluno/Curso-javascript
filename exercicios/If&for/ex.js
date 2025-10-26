@@ -28,7 +28,7 @@ for(posiArr of arr2){
     if (posiArr > maior) {
         //Condição que compara o elemento atual,
         //com o maior encontrado 
-        maior = posiArr // A variavel maior recebe a array atualizada com o maior elemento
+        maior = posiArr // A variavel "maior" recebe a array atualizada com o maior elemento
     }
 }
 
@@ -85,4 +85,12 @@ console.log(`Media de notas dentro da array ${media.toFixed(2)}`)
 //Contando quantas vogais aparece em uma palavra
 let nomeQualquer = "estou aprendendo javascript";
 let vogais = "aeiou";
-let conVogais = 0
+let contVogais = 0
+for(let i = 0; i < nomeQualquer.length; i++){
+    let nomeValue = nomeQualquer.toLocaleLowerCase().trim()
+    if (nomeValue[i] === vogais) {
+        contVogais++
+        
+    }
+}
+console.log(`A quantidade de vogais é ${contVogais}`)

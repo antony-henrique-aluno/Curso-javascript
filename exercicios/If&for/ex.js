@@ -37,8 +37,8 @@ console.log(`O maior numero dentro da array é ${maior}`)
 
 //Procure numeros positivos e negativos de uma array
 let numeros = [10, -10, 5, -5, 60, 77, 1, 33, 0]
-let posi = 0;
-let nega = 0;
+let posi = 0; //contador
+let nega = 0; //contador
 let maiorNumPosi = numeros[0] //Acessa o primeiro numero da array
 let maiorNumNega = numeros[0] 
 for(arrayNum of numeros){
@@ -75,7 +75,7 @@ for(arrayNotas of notas){
     }
     // console.log(`Exibindo cada nota da array ${arrayNotas}`)
     soma += arrayNotas
-    media = soma / notas.length
+    media = soma / notas.length //length conta quantos objetos tem na array de forma dinâmica
 }
 console.log(`A maior nota dentro da array é ${maiorNota}`)
 console.log(`Soma total de notas dentro da array ${soma}`)

@@ -19,7 +19,7 @@ for(posi of arr){
    console.log(posi)
    //O for of imprime diretamente os elementos dentro de uma array
    //Recomendado usar o nome da variavel criada dentro do for of
-   //assim o loop for of imprimirar os elementos
+   //assim o loop for of imprimirar os elementos de dentro da array
 }
 
 

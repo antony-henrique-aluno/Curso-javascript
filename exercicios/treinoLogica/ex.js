@@ -58,6 +58,23 @@ compras()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function toComprando() {
     let toComprandoAinda = true;
     while (toComprandoAinda) {
@@ -65,7 +82,7 @@ function toComprando() {
         if (resposta === -1) {
             toComprandoAinda = false;
             console.log("Você saiu")
-            break;
+            return;
             
             
         } else if (resposta === 1) {
@@ -76,15 +93,17 @@ function toComprando() {
             }
             
             let indiceNome = parseInt(prompt(`Escolha quem vai comprar`));
-            if(indiceNome >= 0 && indiceNome < arrayDxD.length){//Condicão que verifica o index
+            if(indiceNome >= 0 && indiceNome < arrayDxD.length){//Condicão que verifica se o indice é menor que o tamanho da arrayDxD
                 let nomeDxD = arrayDxD[indiceNome]; //Variavel que guarda o nome do objeto escolhido pelo seu index
                 let precoDxd = arrayPrecos[indiceNome];
                 console.log(`Voce escolheu comprar a ${nomeDxD} e o preço dela é de ${precoDxd} R$`);
                 let qtdCompras = parseInt(prompt(`Quantas ${nomeDxD} você vai comprar?`));
                 if(qtdCompras > 0){
                     let precoFinal = precoDxd * qtdCompras;
-                    console.log(`você comprou ${qtdCompras} ${nomeDxD} e você gastou ${precoFinal} R$`)
+                    console.log(`você comprou ${qtdCompras} ${nomeDxD} e você gastou ${precoFinal} R$`);
                 }
+            }else{
+                console.log(`O numero ${indiceNome} não existe dentro da arrayDxD ${arrayDxD}`);
             }
             
             

@@ -65,6 +65,11 @@ console.log(`A array numeros tem ${nega} numeros negativos`)
 console.log(`O menor numero da array é ${maiorNumNega}`)
 
 
+
+
+
+
+
 //Calculando a media de uma array de notas
 let notas = [8.5, 7, 7.5, 9.5, 3, 9];
 let soma = 0
@@ -80,6 +85,12 @@ for(arrayNotas of notas){
 console.log(`A maior nota dentro da array é ${maiorNota}`)
 console.log(`Soma total de notas dentro da array ${soma}`)
 console.log(`Media de notas dentro da array ${media.toFixed(2)}`)
+
+
+
+
+
+
 
 
 //Contando quantas vogais aparece em uma palavra

@@ -76,7 +76,7 @@ function toComprando() {
             }
             
             let indiceNome = parseInt(prompt(`Escolha quem vai comprar`));
-            if(indiceNome >= 0 && indiceNome < arrayDxD.length){
+            if(indiceNome >= 0 && indiceNome < arrayDxD.length){//Condicão que verifica o index
                 let nomeDxD = arrayDxD[indiceNome]; //Variavel que guarda o nome do objeto escolhido pelo seu index
                 let precoDxd = arrayPrecos[indiceNome];
                 console.log(`Voce escolheu comprar a ${nomeDxD} e o preço dela é de ${precoDxd} R$`);

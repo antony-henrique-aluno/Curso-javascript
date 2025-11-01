@@ -10,7 +10,7 @@ function exemplo1() {
 console.log(exemplo1());
 
 
-function exemplo2(){//Função com condicional
+function exemplo2(){//Função condicional
     let n3 = 10;
     let n4 = 3.5;
     let res2 = n3 * n4;

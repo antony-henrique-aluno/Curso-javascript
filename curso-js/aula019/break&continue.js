@@ -5,7 +5,7 @@
 //na execução
 
 //O continue é um pouco diferente! O continue quando 
-//executado dentro de um loop ele para somente aquela
+//executado dentro de um loop, ele para somente aquela
 //interação e pula para a proxima interação e continua
 //normalmente a execução, ele só não vai executar 
 //a interação atual.

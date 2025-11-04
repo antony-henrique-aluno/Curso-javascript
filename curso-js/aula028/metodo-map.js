@@ -4,9 +4,9 @@ const animes = ["Mushoku tensei",
 "One piece"];
 
 
-/*O metodo map deixa passar dois parâmetros ou até mesmo três parâmetros
-O primeiro parâmetro indica o ELEMENTO da coleção que ele está interando
-O Segundo parâmetro indica o INDEX de cada elemento dentro da coleção
+/*O metodo map deixa passar dois parâmetros ou até mesmo três parâmetros.
+O primeiro parâmetro indica o ELEMENTO da coleção que ele está interando,
+O Segundo parâmetro indica o INDEX de cada elemento dentro da coleção.
 */
 
 /*Se eu for executar alguma coisa dentro do map, eu preciso de uma função
@@ -53,7 +53,7 @@ el.map((elements, index) =>{
 const el = document.querySelectorAll("div");
 
  /*O call precisa receber o array que ele vai operar
- e em seguida ele precisa receber uma chamada de 
+ e em seguida, ele precisa receber uma chamada de 
  um metodo que vai operar com o objeto, nesse caso
  estou usando uma arrow function! E para você pegar
  uma propriedade do elemento, você pode usar chaves {}

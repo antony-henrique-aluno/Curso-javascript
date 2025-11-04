@@ -1,0 +1,37 @@
+body{
+    background: Gray;
+}
+
+.aula{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: .3em;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+.aula:hover{
+    color: #4D1CB1;
+    border: 2px solid rgba(215, 0, 0, 1);
+}
+
+.d1{
+    background: #FEFEFE;
+    color: #444;
+}
+
+.d2{
+    background: #444;
+    color: #FEFEFE;
+}
+
+.destaque{
+    background: #800 !important;
+    color: #ccc !important;
+    border-color: #f00 !important;
+}

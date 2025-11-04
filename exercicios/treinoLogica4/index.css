@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+main{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    
+    & > form{
+        border: 2px solid black;
+        width: 380px;
+        height: 600px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        gap: 4rem;
+        
+        
+        
+        & .box{
+            border: 2px solid #00FFAF;
+            border-radius: .5rem;
+            overflow: hidden;
+            
+            box-shadow: 3px 3px 4px #00000020;
+            transition: .3s;
+            
+            &:hover{
+                border: 2px solid #00FF49;
+                box-shadow: 3px 3px 4px #00FF49;
+            }
+        }
+        
+        
+        
+        
+        & input{
+            width: 250px;
+            height: 38px;
+            
+            border: none;
+            outline: none;
+            
+            background: linear-gradient(68deg, #1CDA9E, #8EFFDC);
+            
+            padding-left: .5rem;
+            
+            &:hover{
+                color: white;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+/*Auxiliares*/
+
+input.sucess {
+    color: #30FF00;
+    font-weight: bolder;
+}
+
+.box.sucess{
+    border: 2px solid #30FF00;
+}
+
+/*===============*/
+
+input.warning {
+    color: #FFCE00;
+    font-weight: bolder;
+}
+
+.box.warning {
+    border: 2px solid #FFCE00;
+}
+
+/*===============*/
+
+input.error{
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.box.error{
+    border: 2px solid #ff0000;
+}
+
+
